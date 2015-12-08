@@ -380,6 +380,10 @@ $(call inherit-product, frameworks/native/build/phone-xxxhdpi-3072-dalvik-heap.m
 $(call inherit-product-if-exists, frameworks/native/build/phone-xxxhdpi-3072-hwui-memory.mk)
 >>>>>>> 956d6cf... Angler: Use XXXHDPI dalvik heap and HWUI
 
+# drmservice prop
+PRODUCT_PROPERTY_OVERRIDES += \
+    drm.service.enabled=true
+
 $(call inherit-product-if-exists, hardware/qcom/msm8994/msm8994.mk)
 $(call inherit-product-if-exists, vendor/qcom/gpu/msm8994/msm8994-gpu-vendor.mk)
 
