@@ -6,9 +6,9 @@
     "revision": "cm-13.0"
   },
   {
-   "remote": "gh",
-   "repository": "DespairFactor/angler",
-   "target_path": "kernel/huawei/angler",
-   "revision": "6.0.1"
+    "remote": "gh",
+    "repository": "franciscofranco/angler",
+    "target_path": "kernel/huawei/angler",
+    "revision": "marshmallow"
   }
 ]
