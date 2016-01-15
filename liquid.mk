@@ -4,7 +4,7 @@ TARGET_SCREEN_HEIGHT := 2560
 TARGET_SCREEN_WIDTH := 1440
 
 # Inherit some common LS stuff.
-$(call inherit-product, vendor/liquid/config/common_phone.mk)
+$(call inherit-product, vendor/liquid/config/common_phone_vendor.mk)
 
 # Enhanced NFC
 $(call inherit-product, vendor/liquid/config/nfc_enhanced.mk)
