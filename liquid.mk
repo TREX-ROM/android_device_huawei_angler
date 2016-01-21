@@ -15,10 +15,10 @@ $(call inherit-product, device/huawei/angler/aosp_angler.mk)
 
 ## Device identifier. This must come after all inclusions
 PRODUCT_NAME := liquid_angler
-PRODUCT_BRAND := google
+PRODUCT_BRAND := Google
 PRODUCT_MODEL := Nexus 6P
 
-TARGET_VENDOR := huawei
+TARGET_VENDOR := Huawei
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
     PRODUCT_NAME=angler \
