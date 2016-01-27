@@ -7,8 +7,8 @@
   },
   {
     "remote": "gh",
-    "repository": "DespairFactor/angler",
+    "repository": "franciscofranco/angler",
     "target_path": "kernel/huawei/angler",
-    "revision": "6.0.1"
+    "revision": "marshmallow"
   }
 ]
