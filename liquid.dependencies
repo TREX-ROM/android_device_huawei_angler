@@ -1,0 +1,14 @@
+[
+  {
+    "remote": "tm",
+    "repository": "proprietary_vendor_huawei",
+    "target_path": "vendor/huawei",
+    "revision": "cm-13.0"
+  },
+  {
+   "remote": "gh",
+   "repository": "DespairFactor/angler",
+   "target_path": "kernel/huawei/angler",
+   "revision": "master"
+  }
+]
